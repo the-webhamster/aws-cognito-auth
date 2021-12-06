@@ -1,5 +1,5 @@
 <?php
-namespace App\Cognito;
+namespace App\AppSync;
 
 use Aws\AppSync\AppSyncClient;
 
