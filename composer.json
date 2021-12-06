@@ -1,6 +1,19 @@
 {
+    "name": "the-webhamster/aws-sdk-tutorial",
+    "description": "A very simple set of classes and examples to learn how to use the AWS SDK for PHP.",
+    "keywords": ["AWS SDK", "PHP"],
+    "license": "MIT",
+    "type": "tutorial",
     "require": {
+        "php": "^7.3|^8.0",
         "aws/aws-sdk-php": "^3.208",
         "vlucas/phpdotenv": "^5.4"
-    }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
